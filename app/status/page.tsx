@@ -7,7 +7,7 @@ export default function StatusPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
       <PageTitle
-        title="宇宙稼働状況"
+        title="宇宙のご様子"
         sub="最終確認: 2026/11/17 09:00 JST"
       />
       <StatusCards />

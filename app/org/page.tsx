@@ -15,12 +15,12 @@ const depts = [
 export default function OrgPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
-      <PageTitle title="組織図" />
+      <PageTitle title="教団組織" sub="フッさんを頂点とする運営体制" />
       <div className="flex flex-col items-center">
         <div className="rounded-xl bg-pmo text-white px-8 py-4 text-center shadow">
           <div className="text-3xl">🐧</div>
-          <div className="font-bold">ペンギン神</div>
-          <div className="text-xs text-sky-200">(CEO)</div>
+          <div className="font-bold">フー（通称 フッさん）</div>
+          <div className="text-xs text-sky-200">代表 (CEO)</div>
         </div>
         <div className="h-8 w-px bg-slate-300" />
         <div className="grid w-full gap-4 sm:grid-cols-2 lg:grid-cols-4">

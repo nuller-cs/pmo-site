@@ -1,12 +1,12 @@
 import PageTitle from "@/components/PageTitle";
 import { jobs } from "@/lib/data";
 
-export const metadata = { title: "採用情報 | PMO" };
+export const metadata = { title: "入会のご案内 | PMO" };
 
 export default function CareersPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
-      <PageTitle title="採用情報" sub="募集職種" />
+      <PageTitle title="入会のご案内" sub="あなたも、見守る側になりませんか？（ペンギン限定の職員募集）" />
       <div className="space-y-4">
         {jobs.map((j) => (
           <div
@@ -20,8 +20,9 @@ export default function CareersPage() {
         ))}
       </div>
       <div className="mt-8 rounded-xl bg-pmo text-white p-5">
-        <h2 className="font-bold">応募条件</h2>
+        <h2 className="font-bold">入会条件</h2>
         <p className="mt-2 text-lg">ペンギンであること</p>
+        <p className="mt-2 text-sm text-sky-200">会費0円・壺なし・寄付なし。一般の方は見守られるだけで十分です。</p>
       </div>
     </div>
   );

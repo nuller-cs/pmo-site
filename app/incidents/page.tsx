@@ -1,7 +1,7 @@
 import PageTitle from "@/components/PageTitle";
 import { incidents } from "@/lib/data";
 
-export const metadata = { title: "障害情報 | PMO" };
+export const metadata = { title: "お知らせ | PMO" };
 
 const badge = {
   info: "bg-sky-100 text-sky-800",
@@ -12,7 +12,7 @@ const badge = {
 export default function IncidentsPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
-      <PageTitle title="障害情報" sub="現在確認されている障害の一覧です。" />
+      <PageTitle title="お知らせ（障害情報）" sub="現在、試練として確認されている事象の一覧です。" />
       <ul className="space-y-4">
         {incidents.map((i) => (
           <li
